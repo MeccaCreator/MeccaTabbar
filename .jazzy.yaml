@@ -1,0 +1,7 @@
+# MeccaTabbar document generator jazzy settings
+
+copyright: Copyright 2019 MeccaTabbar
+author: MeccaCreator
+xcodebuild_arguments: [-target, MeccaTabbar-iOS]
+clean: true
+output: ./Documentation
