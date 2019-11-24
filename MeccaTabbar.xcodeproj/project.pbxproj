@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2F1D0E50238A555700CA8F33 /* MeccaTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D0E4F238A555700CA8F33 /* MeccaTabBarViewController.swift */; };
 		2FF5EB33238AA34300565D6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF5EB31238AA34300565D6E /* Main.storyboard */; };
+		2FF5EB35238AA95E00565D6E /* MeccaTabbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF5EB34238AA95E00565D6E /* MeccaTabbarItem.swift */; };
 		3D9C42A222745900000A6585 /* MeccaTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* MeccaTabbar.swift */; };
 		3D9C42B1227459C1000A6585 /* MeccaTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* MeccaTabbar.swift */; };
 		3D9C42BF227459F6000A6585 /* MeccaTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* MeccaTabbar.swift */; };
@@ -75,6 +76,7 @@
 /* Begin PBXFileReference section */
 		2F1D0E4F238A555700CA8F33 /* MeccaTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeccaTabBarViewController.swift; sourceTree = "<group>"; };
 		2FF5EB32238AA34300565D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FF5EB34238AA95E00565D6E /* MeccaTabbarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeccaTabbarItem.swift; sourceTree = "<group>"; };
 		3D9C429022745894000A6585 /* MeccaTabbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeccaTabbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C429C227458E8000A6585 /* MeccaTabbar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MeccaTabbar.plist; sourceTree = "<group>"; };
 		3D9C429D227458E8000A6585 /* MeccaTabbarTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MeccaTabbarTests.plist; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				3D9C43232274629B000A6585 /* AppDelegate.swift */,
 				3D9C43252274629B000A6585 /* ViewController.swift */,
 				2F1D0E4F238A555700CA8F33 /* MeccaTabBarViewController.swift */,
+				2FF5EB34238AA95E00565D6E /* MeccaTabbarItem.swift */,
 				3D9C4333227462B9000A6585 /* Resources */,
 			);
 			path = Example;
@@ -694,6 +697,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF5EB35238AA95E00565D6E /* MeccaTabbarItem.swift in Sources */,
 				2F1D0E50238A555700CA8F33 /* MeccaTabBarViewController.swift in Sources */,
 				3D9C43262274629B000A6585 /* ViewController.swift in Sources */,
 				3D9C43242274629B000A6585 /* AppDelegate.swift in Sources */,
