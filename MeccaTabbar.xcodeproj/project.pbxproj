@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1D0E50238A555700CA8F33 /* MeccaTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D0E4F238A555700CA8F33 /* MeccaTabBarViewController.swift */; };
+		2FF5EB33238AA34300565D6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF5EB31238AA34300565D6E /* Main.storyboard */; };
 		3D9C42A222745900000A6585 /* MeccaTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* MeccaTabbar.swift */; };
 		3D9C42B1227459C1000A6585 /* MeccaTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* MeccaTabbar.swift */; };
 		3D9C42BF227459F6000A6585 /* MeccaTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* MeccaTabbar.swift */; };
@@ -71,6 +73,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F1D0E4F238A555700CA8F33 /* MeccaTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeccaTabBarViewController.swift; sourceTree = "<group>"; };
+		2FF5EB32238AA34300565D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D9C429022745894000A6585 /* MeccaTabbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeccaTabbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C429C227458E8000A6585 /* MeccaTabbar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MeccaTabbar.plist; sourceTree = "<group>"; };
 		3D9C429D227458E8000A6585 /* MeccaTabbarTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MeccaTabbarTests.plist; sourceTree = "<group>"; };
@@ -204,9 +208,6 @@
 				3D9C42D822745DAF000A6585 /* .jazzy.yaml */,
 				3D9C42D922745DAF000A6585 /* .swiftlint.yml */,
 				3DB91AC4229AC263002668DA /* .travis.yml */,
-				3DB91AC5229AC26C002668DA,
-				3DB91AC6229AC272002668DA,
-				3DF6F6282315616D00706C4E,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -233,6 +234,7 @@
 			children = (
 				3D9C43232274629B000A6585 /* AppDelegate.swift */,
 				3D9C43252274629B000A6585 /* ViewController.swift */,
+				2F1D0E4F238A555700CA8F33 /* MeccaTabBarViewController.swift */,
 				3D9C4333227462B9000A6585 /* Resources */,
 			);
 			path = Example;
@@ -241,6 +243,7 @@
 		3D9C4333227462B9000A6585 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2FF5EB31238AA34300565D6E /* Main.storyboard */,
 				3D9C432A2274629C000A6585 /* Assets.xcassets */,
 				3D9C432C2274629C000A6585 /* LaunchScreen.storyboard */,
 				3D9C432F2274629C000A6585 /* Info.plist */,
@@ -547,6 +550,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF5EB33238AA34300565D6E /* Main.storyboard in Resources */,
 				3D9C432E2274629C000A6585 /* LaunchScreen.storyboard in Resources */,
 				3D9C432B2274629C000A6585 /* Assets.xcassets in Resources */,
 			);
@@ -690,6 +694,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1D0E50238A555700CA8F33 /* MeccaTabBarViewController.swift in Sources */,
 				3D9C43262274629B000A6585 /* ViewController.swift in Sources */,
 				3D9C43242274629B000A6585 /* AppDelegate.swift in Sources */,
 			);
@@ -721,6 +726,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2FF5EB31238AA34300565D6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF5EB32238AA34300565D6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		3D9C432C2274629C000A6585 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
